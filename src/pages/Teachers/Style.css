@@ -1,0 +1,61 @@
+.teachers{
+    margin-top: 8rem;
+}
+.teachers .slide{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4rem;
+    user-select: none;
+ }
+ 
+ .teachers .slide img{
+    height: 40rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+ }
+ 
+ .teachers .slide h3{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color:var(--primary-text);
+ }
+ 
+ .teachers .slide .share{
+    position: absolute;
+    top:1rem; left:-10rem;
+ }
+ 
+ .teachers .slide:hover .share{
+    left: 2rem;
+ }
+ 
+ .teachers .slide .share a{
+    display: block;
+    margin-top: 1rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background-color: var(--primary-text);
+    color:var(--secondary-bg);
+    text-align: center;
+    font-size: 2rem;
+ }
+ 
+ .teachers .slide .share a:hover{
+    background-color: var(--secondary-text);
+    color:var(--primary-text);
+ }
+ 
+ .heading{
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+    color:var(--primary-text);
+    text-transform: uppercase;
+ }.heading span{
+    color:var(--secondary-text);
+    text-transform: uppercase;
+ }

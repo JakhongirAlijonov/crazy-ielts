@@ -23,7 +23,7 @@ function Courses() {
       {
         coursesCards.map(({title,img, about,cost,teacher})=>{
           
-return (<SwiperSlide className='slide'>
+return (<SwiperSlide className='slide slide-card'>
               
   <img src={CourseOne} alt="course images" />
   <h3 className='courses-title'>{title}</h3>

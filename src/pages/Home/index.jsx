@@ -5,6 +5,7 @@ import { FaGraduationCap , FaUserGraduate, FaChalkboardTeacher,FaSmile} from 're
 import About from '../About';
 import Courses from '../Courses';
 import {useEffect,useState} from 'react'
+import Teachers from '../Teachers';
 
 
 function Home() {
@@ -98,8 +99,11 @@ useEffect(
 
 
 <About/>
+<div className="quote">
+   Don't be lazy start today , not tomorrow!!!
+</div>
 <Courses/>
-
+<Teachers/>
 </section>
   )
 }

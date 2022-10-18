@@ -9,6 +9,10 @@
     text-align: center;
 }
 
+.slide-card{
+    height: 45rem;
+}
+
 .courses .slide{
     background-color: var(--secondary-bg);
     border-radius: .5rem;
