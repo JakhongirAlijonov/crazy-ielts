@@ -1,0 +1,29 @@
+
+.header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background-color: var(--secondary-bg);
+ }
+ 
+ .header .flex{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ .header .flex .logo{
+    font-size: 2.5rem;
+    color:var(--primary-text);
+ }
+ 
+ .header .flex .nav a{
+    margin-left: 2rem;
+    color:var(--primary-text);
+    font-size: 2rem;
+ }
+ 
+ .header .flex .nav a:hover{
+    color:var(--secondary-text);
+ }

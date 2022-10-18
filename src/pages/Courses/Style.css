@@ -1,0 +1,66 @@
+.courses{
+    margin-top: 7rem;
+}
+
+.courses .heading{
+    color: var(--primary-text);
+    font-size: 5.6rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.courses .slide{
+    background-color: var(--secondary-bg);
+    border-radius: .5rem;
+    text-align: center; 
+    padding:2rem;
+    margin-bottom: 4rem;
+    user-select: none;
+ }
+ 
+ .courses .slide img{
+    height: 25rem;
+    width: 100%;
+ }
+ 
+ .courses-title{
+    margin:1rem 0;
+    font-size: 2rem;
+    color:var(--primary-text);
+ }
+ 
+ .courses .slide p{
+    line-height: 2;
+    font-size: 1.6rem;
+    color:var(--secondary-text);
+    margin-top: 0;
+ }
+
+ .course-details{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 2rem;
+ }
+
+ .course_teacher , .course-cost{
+     color: var(--primary-text);
+ }
+
+ .enroll_course{
+     color: var(--secondary-bg);
+     font-size: 1.6rem;
+     padding: 0.8rem 1.6rem;
+     background-color: var(--primary-text);
+     margin-top: 2rem;
+     border-radius: 4px;
+     
+
+ }
+ .enroll_course:hover{
+    color: var(--primary-text);
+    background-color: var(--primary-bg);
+}
+ .teacher-span{
+     color: var(--secondary-text);
+ }
