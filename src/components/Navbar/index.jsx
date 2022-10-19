@@ -5,9 +5,9 @@ function Navbar() {
     <div>
       <header className="header">
         <section className="flex">
-          <Link className="logo" to="/home">Logo</Link>
+          <Link className="logo" to="/">Logo</Link>
           <nav className="nav">
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/teachers">Teachers</Link>
             <Link to="/courses">Courses</Link>
