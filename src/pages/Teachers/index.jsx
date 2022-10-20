@@ -18,21 +18,12 @@ function Teachers() {
         <h1 className="heading">
           expert <span>tutors</span>
         </h1>
-
-        
-        <Swiper
-          modules={[Navigation, Pagination, Scrollbar]}
-      spaceBetween={50}
-      slidesPerView={3}
-autoplay      
-      pagination={{ clickable: true }}
-     
-      className="swiper teachers-slider"
-    >
+<div className="teacher-wrapper">
+  
 {
   teachersList.map((teacher)=>{
     return (
-      <SwiperSlide key={teacher.id} className='slide'>
+      <div key={teacher.id} className='teacher-card'>
       <img src={teacher.img} alt="" />
             <div className="share">
             <a href={teacher.tg}><FaTelegramPlane/></a>
@@ -40,13 +31,36 @@ autoplay
             <a href={teacher.insta}><FaInstagram/></a>
             </div>
             <h3>{teacher.title}</h3>
-      </SwiperSlide>
+      </div>
     )
   })
-}
+} 
+</div>
 
-      ...
-    </Swiper>
+<div className="hiring">
+  <h2 className="hire-title">
+    Are You a good teacher?
+  </h2>
+  <p className="hire-detail">
+  If you consider yourself self-confident, inquisitive, cheerful and ambitious, our team is for you.
+<br />
+Requirements:
+<ol className="reqs-list">
+  <li>
+ IELTS 7 or higher.
+
+  </li>
+  <li>
+   At least 1+ years teaching experience
+
+  </li>
+</ol>
+
+Send your resume and we will contact you when appropriate
+  </p>
+  <a href="https://t.me/hugo_bola" className="send-cv">Send CV</a>
+</div>
+       
       </section>
   );
 }
