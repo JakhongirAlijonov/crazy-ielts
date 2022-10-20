@@ -6,6 +6,8 @@ import About from '../About';
 import Courses from '../Courses';
 import {useEffect,useState} from 'react'
 import Teachers from '../Teachers';
+import Footer from '../../components/Footer';
+import Contact from '../Contact';
 
 
 function Home() {
@@ -59,6 +61,7 @@ useEffect(
 
   return (
     
+<div>
 <section className="home" id="home">
 
 <div class="row">
@@ -105,6 +108,8 @@ useEffect(
 <Courses/>
 <Teachers/>
 </section>
+<Footer/>
+</div>
   )
 }
 
