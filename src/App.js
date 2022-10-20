@@ -8,7 +8,7 @@ import Books from "./pages/Books";
 import Blog from "./pages/Blog";
 import Reviews from "./pages/Reviews";
 import Contact from "./pages/Contact";
-import Courses from "./pages/Courses";
+import {Courses} from "./pages/Courses";
 import Home from "./pages/Home";
 
 const App = () => {

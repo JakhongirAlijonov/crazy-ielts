@@ -17,7 +17,7 @@ function About() {
       spaceBetween={50}
       slidesPerView={1}
       loop={true}
-      autoplay
+      autoplay={true}
       
     >
       <SwiperSlide  className='about-slider-img'>

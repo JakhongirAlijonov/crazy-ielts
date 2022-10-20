@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import CourseOne from '../../assets/course-1.svg'
 
 import 'swiper/css';
-function Courses() {
+export const Courses = ()=>{
   return (
     
 <section className="courses" id="courses">
@@ -42,5 +42,11 @@ return (<SwiperSlide className='slide slide-card'>
 </section>
   )
 }
-
-export default Courses
+export const CourseContinue = ()=>{
+  return(
+   <div>
+      <h1>Salom</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam doloremque adipisci amet cum? Excepturi, aliquid obcaecati consequatur quasi consequuntur, in exercitationem id itaque sapiente tenetur quae distinctio ab soluta adipisci.</p>
+    </div>
+  )
+}
