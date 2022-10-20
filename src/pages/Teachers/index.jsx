@@ -44,7 +44,7 @@ function Teachers() {
   <p className="hire-detail">
   If you consider yourself self-confident, inquisitive, cheerful and ambitious, our team is for you.
 <br />
-Requirements:
+<p className="hire-detail">Requirements:</p>
 <ol className="reqs-list">
   <li>
  IELTS 7 or higher.
@@ -58,7 +58,7 @@ Requirements:
 
 Send your resume and we will contact you when appropriate
   </p>
-  <a href="https://t.me/hugo_bola" className="send-cv">Send CV</a>
+  <a href="https://t.me/hugo_bola" className="send-cv btn">Send resume</a>
 </div>
        
       </section>

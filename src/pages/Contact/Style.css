@@ -1,0 +1,110 @@
+
+.contact-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    height: calc(100vh - 15rem);
+ }
+
+ .contact-heading{
+     margin-bottom: 0;
+     margin-top: 10rem;
+ }
+ 
+ .contact-image{
+     flex: 1 1 40rem;
+    }
+    
+    .contact-image img{
+     width: 45rem;
+ }
+ 
+ .contact-row form{
+    flex:1 1 40rem;
+ }
+ 
+ .contact-row form .box{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    background-color: var(--secondary-bg);
+    font-size: 1.8rem;
+    color:var(--primary-text);
+    padding:1.4rem;
+    text-transform: none;
+ }
+ 
+ .contact-row form span{
+    font-size: 1.6rem;
+    color:var(--primary-text);
+ }
+
+ .map{
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     text-align: left;
+     border-radius: .4rem;
+     margin-top: 3rem;
+ }
+
+ .contact-details{
+     margin-top: 2rem;
+     text-align: center;
+ }
+
+ .contact-detail .map h3{
+     color: var(--primary-text);
+     font-size: 2.4rem;
+     margin-bottom: 2rem;
+     margin-top: 2rem;
+     
+ }
+ .contact-detail .map p , .contact-detail .map a{
+    color: var(--secondary-text);
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    
+}
+
+.numbers a{
+    display: block;
+    margin-top: 0.5rem;
+}
+.numbers a:hover{
+    color: var(--primary-text);
+}
+
+
+.divider-hr{
+    border: 1px solid var(--primary-text);
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.socials-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+
+.map .share a{
+    margin:0 .3rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    font-size: 2.4rem;
+    color:var(--secondary-text);
+    margin-left: 1.5rem;
+ }
+ 
+ .map .share a:hover{
+    color: var(--primary-text);
+ }
+ 
