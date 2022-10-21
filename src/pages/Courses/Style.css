@@ -1,6 +1,11 @@
 .courses{
     margin-top: 7rem;
 }
+.courses-wrapper{
+    display:grid;
+    grid-template-columns: repeat( auto-fit, minmax(30rem, 1fr) );
+    gap: 1.5rem;
+}
 
 .courses .heading{
     color: var(--primary-text);
