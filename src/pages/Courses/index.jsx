@@ -1,29 +1,24 @@
 import './Style.css'
 import coursesCards from './coursesList'
-import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
+import Footer from '../../components/Footer/index'
 import CourseOne from '../../assets/course-1.svg'
 
 import 'swiper/css';
 function Courses() {
   return (
-    
+    <div>
+      
 <section className="courses" id="courses">
 
 <h1 className="heading">our <span>courses</span></h1>
 
-<Swiper
-      spaceBetween={50}
-      slidesPerView={3}
-      loop={true}
-      autoplay
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
-      {
+<div className="courses-wrapper">
+  
+{
         coursesCards.map(({title,img, about,cost,teacher})=>{
           
-return (<SwiperSlide className='slide slide-card'>
+return (
+  <div className='slide slide-card'>
               
   <img src={CourseOne} alt="course images" />
   <h3 className='courses-title'>{title}</h3>
@@ -33,13 +28,16 @@ return (<SwiperSlide className='slide slide-card'>
   <p className="course-cost">{cost}</p>
   </div>
   <a href="https://t.me/jakhongirbek_alijonov" className='enroll_course'>Enroll</a>
-          </SwiperSlide>
+          </div>
         )})
       }
      
-    </Swiper>
+</div>
+    
 
 </section>
+<Footer/>
+    </div>
   )
 }
 

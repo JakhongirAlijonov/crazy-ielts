@@ -78,8 +78,8 @@
     margin-top: 3rem;
     padding: 2rem ;
     border-radius: 4px;
-    background-color: var(--primary-text);
-    color: var(--secondary-bg);
+    background-color: var(--secondary-bg);
+    color: var(--primary-text);
     font-size: 1.8rem;
  }
  .hire-title{
@@ -96,4 +96,8 @@
  .reqs-list{
     margin-left: 4rem;
     margin-bottom: 2rem;
+ }
+
+ .send-cv{
+    background-color: var(--primary-bg);
  }

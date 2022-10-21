@@ -1,0 +1,45 @@
+
+.books-hero{
+    height: 100vh;
+    margin-top: 5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.books-hero img{
+    width: 60rem;
+}
+
+.books-card{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: var(--secondary-bg);
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.books-card img{
+    width: 60rem;
+}
+
+.book-content{
+    font-size: 1.8rem;
+    color: var(--secondary-text);
+}
+.about-book{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.book-title{
+    font-size: 2.4rem;
+    color: var(--primary-text);
+}
+
+.book-cost{
+    color: var(--primary-text);
+}

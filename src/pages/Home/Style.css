@@ -83,3 +83,11 @@
     font-size: 2.4rem;
     margin: 0;
  }
+
+ .home-quote{
+    margin:0;
+    padding:0;
+    color:var(--primary-text);
+    font-size:2.4rem;
+    text-align:center;
+ }
