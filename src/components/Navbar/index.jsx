@@ -9,8 +9,8 @@ function Navbar() {
           <nav className="nav">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
-            <Link to="/teachers">Teachers</Link>
             <Link to="/courses">Courses</Link>
+            <Link to="/teachers">Teachers</Link>
             <Link to="/reviews">Reviews</Link>
             <Link to="/books">Books</Link>
             <Link to="/blog">Blog</Link>

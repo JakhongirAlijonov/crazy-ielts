@@ -1,0 +1,97 @@
+.reviews{
+    margin-top:1rem;
+}
+.review-hero{
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    gap:1.5rem
+}
+.review-hero img{
+    width:60rem;
+}
+.filter-list{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 2rem;
+    border-radius: 4px;
+    background-color: var(--secondary-bg);
+    margin-top: 2rem;
+    color: var(--secondary-text);
+    font-size: 2.4rem;
+    user-select: none;
+}
+.filter-list:first-child{
+    margin-right: 2rem;
+}
+.filter-item{
+
+    cursor: pointer;
+}
+.filter-active{
+    padding: 0.8rem 1.6rem;
+    border-radius: 4px;
+    background-color: var(--primary-bg);
+}
+.fiter-cards{
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+    grid-template-columns: repeat( auto-fit, minmax(30rem, 1fr) );
+
+}
+
+.filter-card{
+    padding: 2rem;
+    background-color: var(--secondary-bg);
+    border-radius: 4px;
+    color:var(--secondary-text);
+    font-size: 1.8rem;
+}
+.filter-card img{
+    width: 30rem;
+}
+.filter-card p{
+    color: var(--primary-text);
+}
+.score-wrapper{
+    display: grid;    
+    grid-template-columns: repeat(2,1fr);
+}
+.over{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.score{
+    display: flex;
+}
+.score p {
+    margin-right: 1rem;
+}
+.heading{
+    margin-top: 1rem;
+}
+
+.reviews-card{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+padding: 2rem;
+background-color: var(--secondary-bg);
+border-radius: 4px;
+    margin-top: 2rem;
+}
+.reviews-card img{
+    width: 10rem;
+    border-radius: 50%;
+}
+.review-content{
+    font-size: 1.6rem;
+    color: var(--secondary-text);
+}
+.review-title{
+    color: var(--primary-text);
+    font-size: 2.4rem;
+}
