@@ -38,7 +38,6 @@ function Books() {
               <p className="book-cost"> <span>Cost:</span> 50 000 UZS</p>
             </div>
             <img src={BooksImg} alt="" />
-
           </div>
         </div>
       </section>
