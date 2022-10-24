@@ -1,5 +1,5 @@
 import './Style.css'
-import coursesCards from './coursesList'
+import coursesCards from '../../mocks/coursesList'
 import Footer from '../../components/Footer/index'
 import CourseOne from '../../assets/course-1.svg'
 

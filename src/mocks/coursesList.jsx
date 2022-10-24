@@ -1,9 +1,9 @@
-import CourseOne from '../../assets/course-1.svg'
-import CourseTwo from '../../assets/course-2.svg'
-import CourseThree from '../../assets/course-3.svg'
-import CourseFour from '../../assets/course-4.svg'
-import  CourseFive from '../../assets/course-5.svg'
-import  CourseSix from '../../assets/course-6.svg'
+import CourseOne from '../assets/course-1.svg'
+import CourseTwo from '../assets/course-2.svg'
+import CourseThree from '../assets/course-3.svg'
+import CourseFour from '../assets/course-4.svg'
+import  CourseFive from '../assets/course-5.svg'
+import  CourseSix from '../assets/course-6.svg'
 
 
 

@@ -10,7 +10,6 @@ function Reviews() {
       <section class="reviews" id="reviews">
       <div className="review-hero">
         <h1 class="heading">
-          {" "}
           What others think <span>about us</span>
         </h1>
         <img src={ReviewHeroImg} alt="" />

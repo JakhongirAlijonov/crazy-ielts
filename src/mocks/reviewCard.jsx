@@ -1,4 +1,4 @@
-import UserImg from '../../assets/user-img.png'
+import UserImg from '../assets/user-img.png'
 
 const ReviewsList = [
     {
