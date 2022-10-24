@@ -5,7 +5,7 @@ import { FaGraduationCap, FaUserGraduate, FaChalkboardTeacher, FaSmile } from 'r
 import AboutImg from '../../assets/about-img.svg'
 
 import CourseOne from '../../assets/course-1.svg'
-import coursesCards from '../Courses/coursesList'
+import coursesCards from '../../mocks/coursesList'
 
 // import { useEffect, useState } from 'react'
 import Footer from '../../components/Footer';

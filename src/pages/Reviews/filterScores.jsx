@@ -1,4 +1,4 @@
-import filtersCards from "./filtersCards";
+import filtersCards from "../../mocks/filtersCards";
 import ReviewHeroImg from "../../assets/reviews.svg";
 import './Style.css'
 
