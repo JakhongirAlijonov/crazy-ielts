@@ -51,3 +51,56 @@
     font-size: 1.8rem;
     text-transform:lowercase;
  }
+
+ .choose-wrapper{
+   margin-top: 2rem;
+   display:grid;
+   grid-template-columns: repeat( auto-fit, minmax(30rem, 1fr) );
+
+   gap: 2rem;
+ }
+ .choose-card{
+   padding: 2rem;
+   background-color: var(--secondary-bg);
+   height: 35rem;
+   border-radius: 4px;
+   text-align: center;
+   position: relative;
+
+ }
+ .choose-icon{
+   color: var(--secondary-text);
+   font-size: 6rem;
+   margin-bottom: 2rem;
+ }
+ .choose-crd-title{
+   color: var(--primary-text);
+   font-size: 2.4rem;
+   margin-bottom: 2rem;
+ }
+ .choose-card-detail{
+   color: var(--secondary-text);
+   font-size: 1.8rem;
+   margin-bottom: 2rem;
+ }
+ .choose-links{
+   font-size: 1.8rem;
+   position: absolute;
+   bottom: 2rem;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 70%;
+   background-color:var(--primary-bg) ;
+ }
+
+ .gallery-wrapper{
+   display: grid;
+grid-gap: 1rem;
+grid-template-columns: repeat(12 , 1fr) ;
+grid-template-rows: repeat(12 , 1fr) ;
+
+ }
+ .one{
+   grid-column: 1/5;
+   grid-row: 1/8;
+ }
