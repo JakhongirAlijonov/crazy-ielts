@@ -11,7 +11,7 @@ import  CourseSix from '../assets/course-6.svg'
 
 
 const coursesCards = [
-    {
+    {id:1,
         img: <CourseOne/>,
         title:'Super Grammar',
         about:'Learn English fast ',
@@ -19,6 +19,7 @@ const coursesCards = [
         teacher:'Mrs SevinchKhan'
     },
     {
+        id:2,
         img: <CourseTwo/>,
 
         title:'Pre-IELTS',
@@ -26,7 +27,7 @@ const coursesCards = [
         cost:'220 000 UZS',
         teacher:'Miss Diyora'
     },
-    {
+    {id:3,
         img: <CourseThree/>,
         
         title:'Pre-IELTS',
@@ -35,6 +36,7 @@ const coursesCards = [
         teacher:'Miss Ozoda'
     },
     {
+        id:4,
         img: <CourseFour/>,
 
         title:'CEFR',
@@ -42,7 +44,7 @@ const coursesCards = [
         cost:'220 000 UZS',
         teacher:'Miss Mahliyo'
     },
-    {
+    {id:5,
         img: <CourseFive/>,
 
         title:'IELTS',
@@ -51,6 +53,7 @@ const coursesCards = [
         teacher:'Mr Hugo'
     },
     {
+        id:6,
         img: <CourseSix/>,
 
         title:'Grammar',

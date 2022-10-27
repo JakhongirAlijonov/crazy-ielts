@@ -2,6 +2,7 @@ import React from 'react'
 import './Style.css'
 import ContactImg from '../../assets/contact-img.svg'
 import Footer from '../../components/Footer'
+import Heading from '../../components/Headings/headings'
 import { FaFacebook, FaInstagram, FaTelegramPlane } from "react-icons/fa";
 
 function Contact() {
@@ -9,7 +10,8 @@ function Contact() {
     <div>
       <section className="contact" id="contact">
 
-<h1 className="heading contact-heading"><span>contact</span> us</h1>
+      <Heading subChildren={'Contact'} titleChildren={'Get in touch'}/>
+
 
 <div className="contact-row">
 
@@ -34,7 +36,8 @@ function Contact() {
 <div className="contact-details">
   
   <div className="contact-detail">
-    <h2 className="heading">Our <span>location</span></h2>
+  <Heading subChildren={'Location'} titleChildren={'Easy to find'}/>
+
     <div className="map">
     <div>
     <h3>Location</h3>

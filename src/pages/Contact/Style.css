@@ -1,4 +1,6 @@
-
+.contact{
+    margin-top: 5rem;
+}
 .contact-row{
     display: flex;
     align-items: center;

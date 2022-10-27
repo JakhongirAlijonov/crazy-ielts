@@ -23,8 +23,8 @@
  }
  
  *::selection{
-    background-color: var(--yellow);
-    color:var(--black);
+    background-color: var(--secondary-bg);
+    color:var(--primary-text);
  }
  
  html{
