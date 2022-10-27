@@ -2,13 +2,13 @@ import './Style.css'
 import {FaChalkboardTeacher ,FaBuilding } from 'react-icons/fa'
 import {BsBook} from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import Heading from '../../components/Headings/headings'
 
 function ChooseUs() {
   return (
     <div>
-    <h1 className="heading">
-          Why choose <span>us ?</span>
-        </h1>
+                   <Heading subChildren={'About us'} titleChildren={'Why choose us ?'}/>
+
         <div className='choose-wrapper'>
         <div className="choose-card">
                 <FaChalkboardTeacher className='choose-icon'/>

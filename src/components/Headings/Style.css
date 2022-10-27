@@ -1,0 +1,30 @@
+.titles-wrapper{
+    margin-top: 2rem;   
+    text-align: center;
+}
+
+.sub_title{
+    margin-bottom: 2rem;
+    color: var(--secondary-text);
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.main_title{
+    color: var(--primary-text);
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 5rem;
+    position: relative;
+}
+.main_title::after{
+    content: "";
+    border-radius: 4px;
+position: absolute;
+bottom: -2rem;
+left: 50%;
+transform: translateX(-50%);
+width: 30rem;
+height: 0.3rem;
+background-color: var(--primary-text);
+}
