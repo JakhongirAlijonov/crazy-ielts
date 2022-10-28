@@ -53,21 +53,16 @@ function Home() {
 
       <div>
          <section className="home" id="home">
-
             <div class="row">
-
                <div className="content">
                   <h3 className='home-title'>Crazy IELTS<span className='home-span'> learning center</span></h3>
                   <Link to={'/contact'} class="btn">contact us</Link>
                </div>
-
                <div className="image">
                   <img src={HomeImg} alt="studying girl illustration" />
                </div>
 
             </div>
-
-
             <section className="count">
                <div className="box-container">
                   {
@@ -83,11 +78,8 @@ function Home() {
                         )
                      })
                   }
-
-
                </div>
             </section>
-
             <hr className="divider-hr" />
             <section>
                <>
@@ -106,11 +98,9 @@ function Home() {
                            <SwiperSlide className='about-slider-img slider-text'>
                               <h1 className='about-slite-title'>Who we are ?</h1>
                               <p className='about-slite-text'>We are a growing professional team of great teachers. We have been helping nearly <span className="highlighted">1000 students</span> to get at least <span className='highlighted'>5.5 IELTS</span> score by teaching English professionally. Our team is made up of great professionals who are confident in their pursuit of continuous improvement</p>
-
                            </SwiperSlide>
                            <SwiperSlide className='about-slider-img'>
                               <img src={AboutImg} alt="" />
-
                            </SwiperSlide>
                            <SwiperSlide className='about-slider-img'>
                               <img src={AboutImg} alt="biz haqimizda" />
@@ -118,11 +108,6 @@ function Home() {
                            </SwiperSlide>
                            ...
                         </Swiper>
-
-
-
-
-
                      </div>
 
                      <div className="content">
@@ -130,14 +115,11 @@ function Home() {
                         <p className='about-slite-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quibusdam magni error, aut enim rerum?</p>
                         <a href="#contact" class="btn">contact us</a>
                      </div>
-
                   </div>
                </>
             </section>
-
             <p className="home-quote">Just Do It!</p>
             <hr className="divider-hr" />
-
             {/* Courses section */}
             <section className="courses" id="courses">
                <h1 className="heading">our <span>courses</span></h1>
@@ -170,9 +152,8 @@ function Home() {
                </Swiper>
 
             </section>
-
-            <hr className="divider-hr" />
-{/* Teacher sectinpmon */}
+            <hr className="dividxer-hr" />
+            {/* Teacher sectinpmon */}
             <section className="teachers">
                <h1 className="heading">
                   expert <span>tutors</span>
@@ -211,6 +192,20 @@ function Home() {
                </Swiper>
             </section>
             <hr className="divider-hr" />
+         </section>
+         <section className="review">
+            <span className="review__subtitle">Testimonials</span>
+            <h2 className="review__title">Our Customers Review</h2>
+            <p className='review__description'>
+               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae explicabo numquam exercitationem aliquam, <br /> libero cum voluptatum unde sunt rerum culpa.
+            </p>
+            <ul className="review__list">
+               <li className="review__item">
+                  <div className="review__image">
+                     <img src="" alt="" />
+                  </div>
+               </li>
+            </ul>
          </section>
          <Footer />
       </div>
