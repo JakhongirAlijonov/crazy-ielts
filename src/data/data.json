@@ -1,0 +1,49 @@
+
+{ "coursesCards" : [
+     { "id":1,
+        "title":"Super Grammar",
+        "about":"Learn English fast ",
+        "cost":"200 000 UZS",
+        "teacher":"Mrs SevinchKhan"
+    },
+    {
+        "id":2,
+
+        "title":"Pre-IELTS",
+        "about":"Learn English fast ",
+        "cost":"220 000 UZS",
+        "teacher":"Miss Diyora"
+    },
+    {"id":3,
+        
+        "title":"Pre-IELTS",
+        "about":"Learn English fast ",
+        "cost":"220 000 UZS",
+        "teacher":"Miss Ozoda"
+    },
+    {
+        "id":4,
+
+        "title":"CEFR",
+        "about":"Learn English fast ",
+        "cost":"220 000 UZS",
+        "teacher":"Miss Mahliyo"
+    },
+    {"id":5,
+
+        "title":"IELTS",
+        "about":"Learn English fast ",
+        "cost":"220 000 UZS",
+        "teacher":"Mr Hugo"
+    },
+    {
+        "id":6,
+
+        "title":"Grammar",
+        "about":"Learn English fast ",
+        "cost":"220 000 UZS",
+        "teacher":"Miss Madena"
+    }
+]
+
+}

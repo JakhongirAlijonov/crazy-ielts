@@ -6,14 +6,13 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import SwiperCore from 'swiper';
 import ReviewsList from '../../mocks/reviewCard';
+import Heading from '../../components/Headings/headings';
 
 function StudentReview() {
     SwiperCore.use([Autoplay])
   return (
     <div>
-     <h1 class="heading">
-          Students <span>Reviews</span>
-        </h1>
+     <Heading subChildren={"Testimonials"} titleChildren={"Our students' reviews"}/>
         <Swiper
                   spaceBetween={40}
                   slidesPerView={2}
