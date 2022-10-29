@@ -1,0 +1,43 @@
+.course-card{
+    margin-top: 5rem;
+    max-width:120rem;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 1.8rem;
+    padding: 1.6rem;
+    background-color: var(--secondary-bg);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.course-wrapper{
+    margin-top:10rem;
+}
+.course-title{
+    margin-bottom: 2rem;
+    font-size: 3.6rem;
+    color: var(--primary-text);
+    text-align: center;
+
+}
+.course-detail{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--secondary-text);
+    letter-spacing: 1.5px;
+}
+.course-costt , .course-teacher{
+    margin-bottom: 2rem;
+    letter-spacing: 1.5px;
+
+    color: var(--secondary-text);
+}
+.course-content span{
+    color: var(--primary-text);
+}
+.course-card img{
+    width: 50rem;
+}

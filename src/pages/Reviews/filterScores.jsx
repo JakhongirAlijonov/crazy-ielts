@@ -1,10 +1,12 @@
 import filtersCards from "../../mocks/filtersCards";
 import ReviewHeroImg from "../../assets/reviews.svg";
 import './Style.css'
+import Heading from "../../components/Headings/headings";
 
 function Filter() {
   return (
     <div>
+    <Heading subChildren={"Scores"} titleChildren={"Our best scores"} />
          <div className="review-filter">
         <ul className="filter-list">
           <li className="filter-item">Filter:</li>

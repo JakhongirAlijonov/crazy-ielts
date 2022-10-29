@@ -12,6 +12,7 @@ function About() {
          <ChooseUs/>
          <hr className="divider-hr" />
          <CrazyGallery/>
+         
       </section>
       <Footer />
     </div>

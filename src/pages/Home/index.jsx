@@ -37,7 +37,7 @@ function Home() {
 
                <div className="content">
                   <h3 className='home-title'>Crazy IELTS<span className='home-span'> learning center</span></h3>
-                  <Link to={'/contact'} class="btn">contact us</Link>
+                  <Link to={'/contact'} className="btn">contact us</Link>
                </div>
 
                <div className="image">
