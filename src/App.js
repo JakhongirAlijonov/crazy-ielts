@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import Courses from "./pages/Courses";
 import Home from "./pages/Home";
 import OneCourse from "./pages/Courses/OneCourse";
+import OneTeacher from "./pages/Teachers/OneTeacher";
 
 const App = () => {
  
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path='/course/:id' element={<OneCourse/>}/>
+          <Route path='/teacher/:id' element={<OneTeacher/>}/>
         </Routes>
       </Router>
     </div>
