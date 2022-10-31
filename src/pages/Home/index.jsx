@@ -1,36 +1,29 @@
 import './Style.css'
 import HomeImg from '../../assets/homg-img.svg'
 import { Link } from 'react-router-dom'
-
-
 import CourseOne from '../../assets/course-1.svg'
-import coursesCards from '../../mocks/coursesList'
-
-// import { useEffect, useState } from 'react'
 import Footer from '../../components/Footer';
 import teachersList from '../Teachers/teachersList'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 import SwiperCore from 'swiper';
-
-
-
+import { useFetch } from '../../hooks/useFetch'
 import { FaFacebook, FaInstagram, FaTelegramPlane } from 'react-icons/fa';
 import ChooseUs from '../About/chooseUs';
 import Counter from './count'
 import Heading from '../../components/Headings/headings'
-
+import Loader from '../../components/Loader';
 
 function Home() {
    SwiperCore.use([Autoplay])
-
+   const url = 'http://localhost:3000/coursesCards'
+   const {data, isPending ,error} = useFetch(url)
   
    return (
 
       <div>
+      {isPending && <Loader/>}
+      {error && <p className="error">Not found</p> }
          <section className="home" id="home">
 
             <div className="row">
@@ -65,7 +58,7 @@ function Home() {
                   
                >
                   {
-                     coursesCards.map(({ title, img, about, cost, teacher, id }) => {
+                    data &&  data.map(({ title, img, about, cost, teacher, id }) => {
 
                         return (<SwiperSlide className='slide slide-card' key={id}>
 
