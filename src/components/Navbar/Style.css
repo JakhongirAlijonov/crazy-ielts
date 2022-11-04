@@ -27,3 +27,26 @@
  .header .flex .nav a:hover{
     color:var(--secondary-text);
  }
+ .mobile_nav , .hamburger{
+   display: none;
+ }
+ @media (max-width:45rem){
+   .nav{
+      display: none;
+   }
+   .hamburger{
+      display: block;
+      color: var(--secondary-text);
+      font-size: 2.8rem;
+      cursor: pointer;
+   }
+   .mobile_nav #hidden{
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 8rem;
+      height: 23rem;
+      width: 100%;
+      background-color: var(--secondary-bg);
+   }
+ }

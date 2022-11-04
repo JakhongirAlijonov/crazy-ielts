@@ -1,12 +1,19 @@
 import { Link } from "react-router-dom";
 import "./Style.css";
+import {GiHamburgerMenu} from 'react-icons/gi'
+import { useState } from "react";
+
 function Navbar() {
+const [nav , setNav] = useState(false)
+
+
+
   return (
     <div>
       <header className="header">
         <section className="flex">
           <Link className="logo" to="/">Logo</Link>
-          <nav className="nav">
+          <nav className='nav'  >
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/courses">Courses</Link>
@@ -16,6 +23,8 @@ function Navbar() {
             <Link to="/blog">Blog</Link>
             <Link to="/contact">Contact</Link>
           </nav>
+          <GiHamburgerMenu className="hamburger" onClick={()=>setNav(true)}/>
+          
         </section>
       </header>
     </div>
