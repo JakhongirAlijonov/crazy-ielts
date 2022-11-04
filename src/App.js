@@ -12,6 +12,7 @@ import Courses from "./pages/Courses";
 import Home from "./pages/Home";
 import OneCourse from "./pages/Courses/OneCourse";
 import OneTeacher from "./pages/Teachers/OneTeacher";
+import OneArticle from "./pages/Blog/OneArticle";
 
 const App = () => {
  
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path='/course/:id' element={<OneCourse/>}/>
           <Route path='/teacher/:id' element={<OneTeacher/>}/>
+          <Route path="/article/1" element={<OneArticle/>}/>
         </Routes>
       </Router>
     </div>
