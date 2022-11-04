@@ -4,12 +4,19 @@ import ContactImg from '../../assets/contact-img.svg'
 import Footer from '../../components/Footer'
 import Heading from '../../components/Headings/headings'
 import { FaFacebook, FaInstagram, FaTelegramPlane } from "react-icons/fa";
+import ContactImgO from '../../assets/contact.svg'
 
 function Contact() {
   return (
     <div>
       <section className="contact" id="contact">
-
+<div className="hero">
+  <h1 className="hero_title">
+    Get in touch with us
+  </h1>
+  <img src={ContactImgO} alt="" />
+</div>
+<hr className="divider-hr" />
       <Heading subChildren={'Contact'} titleChildren={'Get in touch'}/>
 
 
@@ -39,7 +46,7 @@ function Contact() {
   <Heading subChildren={'Location'} titleChildren={'Easy to find'}/>
 
     <div className="map">
-    <div>
+    <div className='map-dets'>
     <h3>Location</h3>
     <p className="loc">
       Uzbekistan , Fergana city , Ma'rifat street

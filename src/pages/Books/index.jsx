@@ -6,14 +6,11 @@ function Books() {
   return (
     <div>
       <section className="books">
-        <div className="books-hero">
-          <div className="content">
-            <h3 className="home-title">
-              Books <span className="home-span"> we made</span>
-            </h3>
-          </div>
+        <div className="hero">
+          <h1 className="hero_title">Best books to learn IELTS</h1>
           <img src={BooksImg} alt="Books hero " />
         </div>
+        <hr className="divider-hr" />
         <div className="books-cards">
           <div className="books-card">
             <img src={BooksImg} alt="" />

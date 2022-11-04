@@ -2,10 +2,11 @@ import Footer from '../../components/Footer/index'
 import './Style.css'
 import { FaFacebook , FaInstagram, FaTelegramPlane} from 'react-icons/fa';
 import {useFetch} from '../../hooks/useFetch'
-import teachersList from './teachersList'
+import HeroTeacher from '../../assets/course-5.svg'
 import 'swiper/css';
 import Loader from '../../components/Loader'
 import {Link} from 'react-router-dom'
+import Heading from '../../components/Headings/headings';
 
 
 
@@ -17,9 +18,14 @@ function Teachers() {
     {isPending && <Loader/> }
     {error && <p className="error">{error}</p> }
         <section className="teachers" id="teachers">
-        <h1 className="heading">
-          expert <span>tutors</span>
-        </h1>
+        <div className="hero">
+          <img src={HeroTeacher} alt="" />
+          <h1 className="hero_title">
+            excellent tutors for you
+          </h1>
+        </div>
+        <hr className="divider-hr" />
+        <Heading subChildren={'Teachers'}  titleChildren={'Expert Tutors'}  />
 <div className="teacher-wrapper">
   
 {

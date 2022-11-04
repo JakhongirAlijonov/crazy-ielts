@@ -9,6 +9,31 @@
     gap:1.5rem;
     height: calc(100vh - 15rem);
  }
+ @media (max-width:90rem){
+    .contact-row{
+        height: 45vh;
+        justify-content: center;
+        text-align: center;
+    }
+    .contact-image{
+        display: none;
+    }
+
+ }
+ @media (max-width:45rem){
+    .map{
+        justify-content: center;
+        text-align: center;
+
+    }
+    .map-dets{
+        text-align: center;
+    }
+    .socials-list{
+        margin-bottom: 2rem;
+    }
+
+ }
 
  .contact-heading{
      margin-bottom: 0;
@@ -51,6 +76,7 @@
      text-align: left;
      border-radius: .4rem;
      margin-top: 3rem;
+     flex-wrap: wrap;
  }
 
  .contact-details{
@@ -85,6 +111,7 @@
     border: 1px solid var(--primary-text);
     margin-top: 2rem;
     width: 100%;
+    margin-bottom: 2rem;
 }
 
 .socials-list{

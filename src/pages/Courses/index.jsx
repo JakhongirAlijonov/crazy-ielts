@@ -17,6 +17,12 @@ function Courses() {
     {isPending && <Loader/> }
     {error && <p className="error">{error}</p> }
       <section className="courses" id="courses">
+
+<div className="hero">
+  <h1 className="hero_title">quality courses for you</h1>
+  <img src={CourseOne} alt="" />
+</div>
+<hr className="divider-hr" />
         <Heading subChildren={"Find your course"} titleChildren={"Courses"} />
 
         <div className="courses-wrapper">
