@@ -13,6 +13,7 @@ import ChooseUs from '../About/chooseUs';
 import Counter from './count'
 import Heading from '../../components/Headings/headings'
 import Loader from '../../components/Loader';
+import HomeContact from './HomeContact';
 
 function Home() {
    SwiperCore.use([Autoplay])
@@ -22,8 +23,7 @@ function Home() {
    return (
 
       <div>
-      {isPending && <Loader/>}
-      {error && <p className="error">Not found</p> }
+     
          <section className="home" id="home">
 
             <div className="row">
@@ -48,7 +48,9 @@ function Home() {
             <hr className="divider-hr" />
 
             {/* Courses section */}
-            <section className="courses" id="courses">
+            <section className="courses homeCourseWrapper" id="courses">
+            {isPending && <Loader/>}
+      {error && <p className="error">Not found</p> }
                <Heading subChildren={'Find your course'} titleChildren={'Our courses'}/>
                <Swiper
                   spaceBetween={50}
@@ -60,7 +62,7 @@ function Home() {
                   {
                     data &&  data.map(({ title, img, about, cost, teacher, id }) => {
 
-                        return (<SwiperSlide className='slide slide-card' key={id}>
+                        return (<SwiperSlide className='slide slide-card homeCourse' key={id}>
 
                            <img src={CourseOne} alt="course images" />
                            <h3 className='courses-title'>{title}</h3>
@@ -117,6 +119,7 @@ function Home() {
                </Swiper>
             </section>
             <hr className="divider-hr" />
+            <HomeContact/>
          </section>
          <Footer />
       </div>

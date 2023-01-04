@@ -4,7 +4,7 @@ import CauntUp from 'react-countup';
 function Counter() {
     const incrementBox = [
         {id:'ad',
-           target: 100,
+           target: 45,
            tg: '+',
            title: 'courses',
            icon: <FaGraduationCap className='icon-box' />,

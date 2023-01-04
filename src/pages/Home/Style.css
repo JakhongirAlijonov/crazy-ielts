@@ -92,3 +92,13 @@
     text-align:center;
     margin-top:2rem;
  }
+
+ .homeCourse{
+   height: 450px;
+}
+
+.homeCourseWrapper{
+    position: relative;
+    height: 650px;
+
+ }
