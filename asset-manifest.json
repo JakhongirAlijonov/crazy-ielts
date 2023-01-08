@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/crazy-ielts/static/css/main.64bc87ba.css",
+    "main.js": "/crazy-ielts/static/js/main.9bb0bc0c.js",
+    "static/media/frog.jpg": "/crazy-ielts/static/media/frog.403ffb56926627065efd.jpg",
+    "static/media/homg-img.svg": "/crazy-ielts/static/media/homg-img.fd67a5c1247cf6fc36b2319cee9b718c.svg",
+    "static/media/about-img.svg": "/crazy-ielts/static/media/about-img.52b6834ef0622dc50f37043f9fef78a8.svg",
+    "static/media/course-1.svg": "/crazy-ielts/static/media/course-1.3c094aa91dd4a8a6e026a26288fce11f.svg",
+    "static/media/contact.svg": "/crazy-ielts/static/media/contact.c198a07e9848b74783071b2b2014fd39.svg",
+    "static/media/books-hero.svg": "/crazy-ielts/static/media/books-hero.867eb618e4e732da9e56c148a20491fb.svg",
+    "static/media/reviews.svg": "/crazy-ielts/static/media/reviews.6427a3de3834943c1de13a872de78b4d.svg",
+    "static/media/contact-img.svg": "/crazy-ielts/static/media/contact-img.5f668e3f32daaba8d77077104a3c697e.svg",
+    "index.html": "/crazy-ielts/index.html",
+    "main.64bc87ba.css.map": "/crazy-ielts/static/css/main.64bc87ba.css.map",
+    "main.9bb0bc0c.js.map": "/crazy-ielts/static/js/main.9bb0bc0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64bc87ba.css",
+    "static/js/main.9bb0bc0c.js"
+  ]
+}
