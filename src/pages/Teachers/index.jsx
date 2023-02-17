@@ -1,21 +1,17 @@
 import Footer from '../../components/Footer/index'
 import './Style.css'
 import { FaFacebook , FaInstagram, FaTelegramPlane} from 'react-icons/fa';
-import {useFetch} from '../../hooks/useFetch'
-import teachersList from './teachersList'
+import teachers from '../../mocks/teachersMock'
 import 'swiper/css';
-import Loader from '../../components/Loader'
 import {Link} from 'react-router-dom'
 
 
 
 function Teachers() {
-  const {data , isPending , error} = useFetch('https://randomuser.me/api/?results=6&inc=name,id,phone,picture')
-  console.log(data);
+
   return (
     <div>
-    {isPending && <Loader/> }
-    {error && <p className="error">{error}</p> }
+  
         <section className="teachers" id="teachers">
         <h1 className="heading">
           expert <span>tutors</span>
@@ -23,18 +19,17 @@ function Teachers() {
 <div className="teacher-wrapper">
   
 {
- data &&  data.results.map(({phone, picture, name})=>{
+ teachers.map((teacher)=>{
   return (
-      <div key={phone} className='teacher-card'>
-      <img src={picture.medium} alt="" />
+      <div key={teacher.id} className='teacher-card'>
+      <img src={teacher.img} alt={teacher.name} />
 
             <div className="share">
-            <a href='https://t.me'><FaTelegramPlane/></a>
-            <a href='https://t.me'><FaFacebook/></a>
-            <a href='https://t.me'><FaInstagram/></a>
+            <a href={teacher.telegram}><FaTelegramPlane/></a>
+            <a href={teacher.facebook}><FaFacebook/></a>
+            <a href={teacher.instagram}><FaInstagram/></a>
             </div>
-            <h3>{name.title } {name.first} {name.last} </h3>
-            <Link to={`/teacher/${phone}`} className=' btn'>More about Teacher</Link>
+            <h3>{teacher.name }</h3>
 
       </div>
     )

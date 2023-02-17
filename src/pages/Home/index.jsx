@@ -3,7 +3,7 @@ import HomeImg from '../../assets/homg-img.svg'
 import { Link } from 'react-router-dom'
 import CourseOne from '../../assets/course-1.svg'
 import Footer from '../../components/Footer';
-import teachersList from '../Teachers/teachersList'
+import teachers from '../../mocks/teachersMock'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper';
 import SwiperCore from 'swiper';
@@ -97,18 +97,18 @@ function Home() {
                 
                >
                   {
-                     teachersList.map((teacher) => {
+                     teachers.map((teacher) => {
 
                         return (<SwiperSlide className='slide slide-card'>
 
                            <div key={teacher.id} className='teacher-card'>
-                              <img src={HomeImg} alt="" />
+                              <img src={teacher.img} alt="" />
                               <div className="share">
-                                 <a href={teacher.tg}><FaTelegramPlane /></a>
-                                 <a href={teacher}><FaFacebook /></a>
-                                 <a href={teacher.insta}><FaInstagram /></a>
+                                 <a href={teacher.telegram}><FaTelegramPlane /></a>
+                                 <a href={teacher.facebook}><FaFacebook /></a>
+                                 <a href={teacher.instagram}><FaInstagram /></a>
                               </div>
-                              <h3>{teacher.title}</h3>
+                              <h3>{teacher.name}</h3>
                            </div>
                            ...
                         </SwiperSlide>

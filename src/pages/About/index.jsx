@@ -1,7 +1,7 @@
 import "./Style.css";
 import Footer from "../../components/Footer";
 import ChooseUs from "./chooseUs";
-import CrazyGallery from "./gallery";
+import CrazyGallery from "./gallery.jsx";
 
 
 
