@@ -9,8 +9,9 @@ import Footer from '../../../components/Footer';
 
 function OneCourse() {
   const { id } = useParams()
-  const url = 'http://localhost:3000/coursesCards/' + id
+  const url = 'https://63efbc8cc59531ccf175fb34.mockapi.io/crazy-courses/courses' + id
   const { data, isPending, error } = useFetch(url)
+  console.log(data);
   return (
     <div className='course-wrapper'>
       {isPending && <Loader />}

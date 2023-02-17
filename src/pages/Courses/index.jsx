@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import Loader from '../../components/Loader/index'
 import { useFetch } from "../../hooks/useFetch";
 function Courses() {
-  const url = 'http://localhost:3000/coursesCards'
+  const url = 'https://63efbc8cc59531ccf175fb34.mockapi.io/crazy-courses/courses'
   const {data, isPending ,error} = useFetch(url)
   
   return (
@@ -40,7 +40,7 @@ function Courses() {
                   >
                     Enroll
                   </a>
-                  <Link to={`/course/${id}`} className='more-courses btn'>More about course</Link>
+                  <Link to={`/courses/${id}`} className='more-courses btn'>More about course</Link>
                 </div>
               </div>
             );
